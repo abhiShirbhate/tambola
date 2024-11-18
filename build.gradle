@@ -1,0 +1,15 @@
+plugins {
+    id 'java'
+}
+
+group = 'com.sahaj.tambola'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'junit:junit:4.13.1'
+    testImplementation 'org.hamcrest:hamcrest:3.0'
+}
